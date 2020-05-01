@@ -13,7 +13,7 @@ def optimize_variational_circuit_with_proxy(initial_params, optimizer, client, *
     Arguments:
         initial_params (numpy.ndarray): initial guess for the ansatz parameters.
         method (string): scipy method for optimization
-        client (zquantum.core.optimizer.proxy.Client): a client for interacting with
+        client (zquantum.optimizers.daemon_optimizer.proxy.Client): a client for interacting with
             the proxy
 
         *** OPTIONAL ***
